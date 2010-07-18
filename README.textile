@@ -6,22 +6,24 @@ h2. examples
 
 an example message is provided in this repo ("example.mex") that shows off all of MeXML's features, but here's a short one just to show how easy and beautiful it is to create e-mails with MeXML!
 
-bc..
+bc.
 <?xml version="1.0" xmlns="http://psychedeli.ca/code/mexml" xml:lang="en" ?>
 <head>
 	<from href="tha_dark_lord@mordor.co.uk">Sauron</from>
 	<to href="elves@middle.earth.net">The Elves</to>
+	<to href="dwarves@middle.earth.net" type="cc">The Dwarves</to>
+	<to href="men@middle.earth.net" type="cc">The Men</to>
+	<to href="morgoth@middle.earth.net" type="bcc">Morgoth</to>
 	<subject>haha kiss the rings bitch!!!</subject>
 </head>
 <body>
 	<p>
-		I done got all yo rings. Have fun in your boats bitchez!!!
+		I done got all yo rings. Have fun in your boats bitchezzz!!!
 	</p>
-	
-	<signature>
-		-Sauron
-	</signature>
 </body>
+<foot>
+	Love, Sauron
+</foot>
 
 h2. rendering
 
