@@ -2,43 +2,42 @@
 	MeXML
 	this is an example message formatted for MeXML use.
 -->
-<!DOCTYPE mexml PUBLIC "-//PSYBER//DTD MeXML 1.0//EN"
-	"http://psychedeli.ca/code/mexml/mexml.dtd">
+<!DOCTYPE mexml PUBLIC "-//PSY//DTD MeXML 1.0//EN" "http://psychedeli.ca/code/mexml/mexml.dtd">
 <?xml version="1.0" xmlns="http://psychedeli.ca/code/mexml" xml:lang="en" ?>
 <head>
-	<from href="webmaster@psychedeli.ca" 
+	<from href="webmaster@psychedeli.ca"
 		  reply-to="tubbo@psychedeli.ca">Webmaster</from>
 	<to href="tom@jodihead.com" type="to">Tom Scott</to>
 	<to href="someguy@gmail.com" type="cc">Some Guy</to>
 	<to href="007@cia.gov" type="bcc">James Bond</to>
-	
+
 	<link rel="stylesheet" type="text/css" href="outlook.css" />
-	
+
 	<subject>For Your Eyes Only</subject>
 </head>
 
 <body>
 	<p>
-		Hello gentlemen. All your base are belong to us.
+		How are you gentlemen. All your base are belong to us.
 	</p>
-	
+
 	<h1>hay guys</h1>
-	
+
 	<ul>
 		<li>thing 1</li>
 		<li>thing 2</li>
 		<li>thing 3</li>
 	</ul>
-	
+
 	<quote>
 		<head>
-			 from="Someone, Somewhere" 
-				   href="someone@somewhere.com" 
-				   datetime="2009-08-10 20:30:36"
+			<from href="someone@somewhere.com" datetime="2009-08-10 20:30:36">
+				Someone, Somewhere
+			</from>
 		The other e-mail message.
 	</quote>
-	
+
 	<signature>
-		Sent from MeXico
+		- Sent from MeXico
 	</signature>
 </body>
